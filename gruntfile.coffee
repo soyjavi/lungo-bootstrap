@@ -29,7 +29,7 @@ module.exports = (grunt) ->
         'bower_components/device.js/device.js']
       css: [
         'bower_components/lungo/lungo.css'
-        'bower_components/lungo/lungo.icons.css']
+        'bower_components/lungo/lungo.icon.css']
 
 
     concat:

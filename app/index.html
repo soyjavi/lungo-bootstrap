@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Brownie - Lungo 2.2</title>
+    <title>Lungo Bootstrap</title>
     <meta name="description" content="">
     <meta name="author" content="Javier Jiménez Villar (@soyjavi)">
     <meta name="HandheldFriendly" content="True">
@@ -11,113 +11,37 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <meta name="format-detection" content="telephone=no">
     <meta http-equiv="cleartype" content="on">
-
-    <!-- iPhone -->
-    <link href="http://cdn.tapquo.com/lungo/icon-57.png" sizes="57x57" rel="apple-touch-icon">
-    <link href="http://cdn.tapquo.com/lungo/startup-image-320x460.png" media="(device-width: 320px) and (device-height: 480px)
-             and (-webkit-device-pixel-ratio: 1)" rel="apple-touch-startup-image">
-
-    <!-- iPhone (Retina) -->
-    <link href="http://cdn.tapquo.com/lungo/icon-114.png" sizes="114x114" rel="apple-touch-icon">
-    <link href="http://cdn.tapquo.com/lungo/startup-image-640x920.png" media="(device-width: 320px) and (device-height: 480px)
-             and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
-
-    <!-- iPhone 5 -->
-    <link href="http://cdn.tapquo.com/lungo/startup-image-640x1096.png" media="(device-width: 320px) and (device-height: 568px)
-             and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
-
-    <!-- iPad -->
-    <link href="http://cdn.tapquo.com/lungo/icon-72.png" sizes="72x72" rel="apple-touch-icon">
-    <link href="http://cdn.tapquo.com/lungo/startup-image-768x1004.png" media="(device-width: 768px) and (device-height: 1024px)
-             and (orientation: portrait)
-             and (-webkit-device-pixel-ratio: 1)" rel="apple-touch-startup-image">
-    <link href="http://cdn.tapquo.com/lungo/startup-image-748x1024.png" media="(device-width: 768px) and (device-height: 1024px)
-             and (orientation: landscape)
-             and (-webkit-device-pixel-ratio: 1)" rel="apple-touch-startup-image">
-
-    <!-- iPad (Retina) -->
-    <link href="http://cdn.tapquo.com/lungo/icon-144.png" sizes="144x144" rel="apple-touch-icon">
-    <link href="http://cdn.tapquo.com/lungo/startup-image-1536x2008.png" media="(device-width: 768px) and (device-height: 1024px)
-             and (orientation: portrait)
-             and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
-    <link href="http://cdn.tapquo.com/lungo/startup-image-1496x2048.png" media="(device-width: 768px) and (device-height: 1024px)
-             and (orientation: landscape)
-             and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
-
     <!-- Main Stylesheet -->
     <link rel="stylesheet" href="assets/css/lungo-bootstrap.components.css">
     <link rel="stylesheet" href="assets/css/lungo-bootstrap.css">
 </head>
 
 <body>
-    <section id="main" data-transition="slide" data-aside="features" class="drag">
-        <header>
+    <section id="main" data-transition="slide" data-aside="menu" class="drag">
+        <header data-title="Lungo Bootstrap">
             <nav>
-                <a href="#" data-view-aside="features" data-icon="menu"></a>
-            </nav>
-            <img src="static/images/logo.png" class="title centered">
-            <nav class="on-right">
-                <a href="#"  ><abbr class="text tiny ">v2.2</abbr></a>
+                <a href="#" data-view-aside="menu" data-icon="menu"></a>
             </nav>
         </header>
+        <article id="main">main article</article>
+        <article id="second">second article</article>
+        <footer>
+            <nav>
+                <a href="#" data-view-article="main" data-icon="user"></a>
+                <a href="#" data-view-article="second" data-icon="cog"></a>
+            </nav>
+        </footer>
+    </section>
 
-        <nav data-control="groupbar" data-article="icon-symbol icon-media icon-toolbar icon-social icon-item">
-            <a href="#" data-view-article="icon-symbol" data-label="Symbol" data-async="static/articles/icon-symbol.html"></a>
-            <a href="#" data-view-article="icon-media" data-label="Media" data-async="static/articles/icon-media.html"></a>
-            <a href="#" data-view-article="icon-toolbar" data-label="Toolbar" data-async="static/articles/icon-toolbar.html"></a>
-            <a href="#" data-view-article="icon-social" data-label="Social"  data-async="static/articles/icon-social.html"></a>
-            <a href="#" data-view-article="icon-item" data-label="Item" data-async="static/articles/icon-item.html"></a>
-        </nav>
-
-        <nav data-control="groupbar" data-article="list list-indented list-examples">
-            <a href="#" data-view-article="list" data-icon="checkmark" data-label="Normal"></a>
-            <a href="#" data-view-article="list-indented" data-label="Indented"></a>
-            <a href="#" data-view-article="list-examples" data-label="Examples"></a>
-        </nav>
-
-        <article id="main-article" class="list indenteds scroll">
+    <aside id="menu">
+        <header data-title="menu"></header>
+        <article id="menu_options" class="list scroll active">
             <ul>
-                <li class="text small">
-                    A framework based on HTML5 for developers who want to design, build and share cross device Apps.
-                </li>
-                <li>
-                    <strong class="text bold">Optimized</strong>
-                    <span class="text tiny">
-                        Lungo supports open web standards, such as HTML5, CSS3 and JavaScript. It brings consistent browser environment across mobiles, tvs and desktop devices.
-                    </span>
-                </li>
-                <li>
-                    <strong class="text bold">Powerfull JavaScript API</strong>
-                    <span class="text tiny">
-                        There are many ways to create apps, and not always is optimized. Lungo offers you a robust API so you can have complete control of your app.
-                    </span>
-                </li>
-                <li>
-                    <strong class="text bold">Lightweight & Scalable</strong>
-                    <span class="text tiny">
-                        Create apps for each platform is hard, this situation is increased by the arrival of new devices. Lungo will suit all of them creating a unique and amazing UX.
-                    </span>
-                </li>
-                <li>
-                    <strong class="text bold">Real Cross-Device</strong>
-                    <span class="text tiny">
-                        Create apps for each platform is hard, this situation is increased by the arrival of new devices. Lungo will suit all of them creating a unique and amazing UX.
-                    </span>
-                </li>
-                <li>
-                    <strong class="text bold">Open Source Project</strong>
-                    <span class="text tiny">
-                        Each new line of code in Lungo is welcome, we hope that Developers and restless minds help us to improve day by day this humble project.
-                    </span>
-                </li>
-                <li>
-                    <a href="https://twitter.com/intent/tweet?original_referer=http%3A%2F%2Flungo.tapquo.com%2F&text=@lungojs a framework for developers who want to design, build and share cross device apps" target="_blank" class="button theme" data-label="Tweet me"></a>
-
-                    <a href="http://lungo.tapquo.com" target="_blank" class="button margin-top secondary" data-label="Go to Project's page"></a>
-                </li>
+                <li data-view-article="main" data-icon="user" data-label="Main Article"></li>
+                <li data-view-article="second" data-icon="cog" data-label="Second Article"></li>
             </ul>
         </article>
-    </section>
+    </aside>
 
     <!-- Lungo dependencies -->
     <script src="assets/js/lungo-bootstrap.components.js"></script>
