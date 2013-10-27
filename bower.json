@@ -1,0 +1,21 @@
+{
+  "name": "lungo-bootstrap",
+  "version": "1.0.0",
+  "main": "path/to/main.css",
+  "ignore": [
+    ".jshintrc",
+    "**/*.txt"
+  ],
+  "dependencies": {
+
+  },
+  "devDependencies": {
+    "lungo"         : "*",
+    "quojs"         : "*",
+    "monocle"       : "*",
+    "appnima.js"    : "*",
+    "hope"          : "*",
+    "CSSmethods"    : "*",
+    "device.js"     : "*"
+  }
+}

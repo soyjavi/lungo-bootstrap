@@ -1,0 +1,38 @@
+{
+  "name": "monocle",
+  "description": "Build awesome CoffeeScript MVC Apps",
+  "version": "1.0.4",
+  "homepage": "http://monocle.tapquo.com",
+  "author": {
+    "name": "Javi Jiménez Villar",
+    "site": "http://twitter.com/soyjavi"
+  },
+  "main": [
+    "./monocle.js"
+  ],
+  "keywords": [
+    "monocle",
+    "mvc",
+    "framework",
+    "jquery",
+    "zepto",
+    "quojs"
+  ],
+  "dependencies": {
+    "quojs": "latest"
+  },
+  "license": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "_release": "1.0.4",
+  "_resolution": {
+    "type": "version",
+    "tag": "1.0.4",
+    "commit": "9a453067dc5f49669812981e9b7c9727f39669ea"
+  },
+  "_source": "git://github.com/soyjavi/package-monocle.git",
+  "_target": "*",
+  "_originalSource": "monocle"
+}

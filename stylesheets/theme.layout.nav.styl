@@ -1,0 +1,73 @@
+/**
+ * Stylesheet
+ *
+ * @namespace Lungo.Theme
+ * @class Layout
+ *
+ * @author Javier Jimenez Villar <javi@tapquo.com> || @soyjavi
+ */
+
+nav
+  section header > &
+    &:not(.on-right)
+      & a, button
+        color: darken(THEME, 40%)
+        text-shadow: 0 0.1em lighten(THEME, 10%)
+    &.on-right
+      & a, button
+        color: lighten(THEME, 95%)
+        text-shadow: 0 0.1em darken(THEME, 10%)
+
+  aside header > &
+    & a, button
+      color: lighten(ASIDE, 25%)
+      text-shadow: 0 0.1em darken(ASIDE, 10%)
+
+  header > &
+    a, button
+      &:active, &.active
+        color: WHITE !important
+        text-shadow: 0 0 0.5em WHITE
+
+  section > footer > & > a, &[data-control=groupbar] > a
+    color: NAV_LINK
+    transition-property color, box-shadow
+    transition-duration TRANSITION_time
+    transition-timing-function TRANSITION_easing
+    & abbr
+      font-weight: 400
+    &.active, &:active
+      color: NAV_LINK_ACTIVE
+
+  &[data-control=groupbar] > a
+    &.active, &:active
+      box-shadow: inset 0 -0.3em THEME
+
+  section > footer > & > a
+    &.active, &:active
+      box-shadow: inset 0 0.3em THEME
+
+  &[data-control=menu]
+    background-color: rgba(0,0,0,0.9)
+    box-shadow 0 2px 0 SHADOW
+    &.icons
+      & > a
+        &, > abbr
+          color: NAV_LINK
+        & > .icon
+          color: NAV_LINK_ACTIVE
+        &:active, &:hover
+          & > .icon
+            text-shadow: 0 0 2em NAV_LINK_ACTIVE
+
+    &:not(.icons)
+      & > a
+        &, > abbr
+          color: NAV_LINK_ACTIVE
+        & > .icon
+          color: NAV_LINK
+        &:active, &:hover
+          background-color: rgba(255,255,255,0.2)
+          & > .icon
+            color: THEME
+

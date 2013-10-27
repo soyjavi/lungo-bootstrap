@@ -1,0 +1,17 @@
+{
+  "name"            : "lungo-bootstrap",
+  "version"         : "1.0.0",
+  "description"     : "...",
+  "homepage"        : "http://lungo.tapquo.com",
+  "author"          : "Javi Jimenez <javi@tapquo.com>",
+  "dependencies"    : {},
+  "devDependencies" : {
+    "grunt-contrib-coffee": "*",
+    "grunt-contrib-concat": "*",
+    "grunt-contrib-uglify": "*",
+    "grunt-contrib-stylus": "*",
+    "grunt-contrib-watch": "*"
+  },
+  "scripts"         : {},
+  "engines"         : {}
+}

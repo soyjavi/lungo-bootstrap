@@ -1,0 +1,45 @@
+/**
+ * Stylesheet
+ *
+ * @namespace Lungo.Theme
+ * @class Layout
+ *
+ * @author Javier Jimenez Villar <javi@tapquo.com> || @soyjavi
+ */
+
+article
+  & .button, button
+    border-radius BORDER_radius
+    box-shadow: inset 0 -1px rgba(0,0,0,0.1), 0 1px rgba(0,0,0,0.075)
+    box-shadow: inset 0 -1px rgba(0,0,0,0.1)
+
+    &, & abbr
+      color: #fff
+      font-weight: 600
+      text-shadow:  0 1px rgba(0,0,0,0.1)
+
+    &:hover
+      box-shadow: inset 0 0 5em rgba(0,0,0,0.1), inset 0 -1px rgba(0,0,0,0.15), 0 1px rgba(0,0,0,0.075)
+    &:active
+      box-shadow inset 0 0 5em rgba(0,0,0,0.2), inset 0 1px rgba(0,0,0,0.2)
+
+    & .icon
+      opacity: 0.65
+      text-shadow: 0 -1px 0 rgba(0,0,0,0.25)
+
+  & button, .button
+    &
+      background-color: darken(THEME, 15%)
+    &.color
+      background-color: lighten(COLOR, 10%)
+    &.accept
+      background-color: SUCCESS
+    &.cancel
+      background-color: DANGER
+    &.warning
+      background-color: WARNING
+    &[disabled], :disabled, &.disabled
+      background: FORM_color
+      color: #999 !important
+      box-shadow: none !important
+      text-shadow: none !important

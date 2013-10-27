@@ -1,0 +1,33 @@
+{
+  "name": "Appnima",
+  "description": "JavaScript Appnima Client",
+  "version": "0.8.13",
+  "homepage": "http://appnima.com",
+  "author": {
+    "name": "Tapquo S.L. (@tapquo)",
+    "site": "http://tapquo.com"
+  },
+  "main": [
+    "appnima.js"
+  ],
+  "keywords": [
+    "appnima",
+    "client",
+    "javascript",
+    "LAAS"
+  ],
+  "license": [
+    {
+      "type": "GPLv3"
+    }
+  ],
+  "_release": "0.8.13",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.8.13",
+    "commit": "dbfb7b9f8199dc2ebb449f527195b69806433ecb"
+  },
+  "_source": "git://github.com/tapquo/appnima.js.git",
+  "_target": "*",
+  "_originalSource": "appnima.js"
+}

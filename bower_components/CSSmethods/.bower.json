@@ -1,0 +1,34 @@
+{
+  "name": "CSSmethods",
+  "description": "Repository of methods for CSS preprocessors",
+  "homepage": "http://twitter.com/soyjavi",
+  "author": {
+    "name": "Javi Jimenez Villar - @soyjavi",
+    "site": "http://twitter.com/soyjavi"
+  },
+  "main": [],
+  "keywords": [
+    "mobile",
+    "framework",
+    "html5",
+    "device",
+    "desktop",
+    "phone",
+    "tablet",
+    "tv"
+  ],
+  "license": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "_release": "301162435d",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "301162435d77e8503db068ed6021d7cd4bd1052e"
+  },
+  "_source": "git://github.com/soyjavi/CSSmethods.git",
+  "_target": "*",
+  "_originalSource": "CSSmethods"
+}
